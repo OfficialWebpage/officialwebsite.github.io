@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('foods.png');
+	background-size: cover;
+}
+.wrapper{
+	magin-top: 10%;
+}
+.wrapper h1{
+	font-family: 'Allura', cursive;
+	font-size: 52px;
+	margin-bottom: 60px;
+	text-align: center;
+	color: black;
+}
+.team{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.team .team_member{
+	background-image: linear-gradient(135deg, #9fe0d4, #ff9999);
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 20px;
+	line-height: 20px;
+	color: #8e8b8b;
+	position: relative;
+}
+.team .team_member h3{
+	color: #1E90FF;
+	font-size: 26px;
+	margin-top: 50px;
+}
+.team .team_member p.role{
+	color: black;
+	font-size: 12;
+	text-transform: uppercase;
+	margin: 12px 0;
+}
+.team .team_member .team_img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color:#ccffe6;
+	
+}
+.team .team_member .team_img img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	padding: 10px;
+	
+}
+p{
+	color: #cc0000;
+}
+
